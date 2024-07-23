@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+:root{
+    --color0--:#001A65;
+    --color1--:#A9E4EE;
+    --color2--:#E3CDEF;
+    --color3--:#FD1D75;
+    --color4--:#055CCC;
+    --color5--:#F601C0;
+
+    --font1--: Arial, Helvetica, sans-serif;
+    --font2--: "Playwrite HR Lijeva", sans-serif;
+    --font3--: "Playwrite DK Loopet", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #001A65;
+    width: 100%;
+    height: 100%;
+}
+
+.cabeca{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px 20px 20px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.cabeca > a{
+    color: var(--color1--);
+}
+
+.cabeca > p{
+    color: var(--color1--);
+    font-family: var(--font3--);
+    font-size: 16px;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao > a{
+    display: inline-block;
+    color: var(--color1--);
+    text-decoration: none;
+    font-family: var(--font2--);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.navegacao > a:hover{
+    background-color: var(--color4--);
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}

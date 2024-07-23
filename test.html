@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostruário de Produtos</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mostruário de Produtos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Bem-vindo ao nosso Mostruário</h2>
+            <p>Conheça nossos produtos de alta qualidade e escolha o que mais combina com você.</p>
+        </div>
+    </section>
+
+    <section id="produtos" class="gallery">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="card">
+                <img src="imagens/produto1.jpg" alt="Produto 1">
+                <h3>Produto 1</h3>
+                <p>Descrição do produto 1. Excelente qualidade e ótimo preço.</p>
+            </div>
+            <div class="card">
+                <img src="imagens/produto2.jpg" alt="Produto 2">
+                <h3>Produto 2</h3>
+                <p>Descrição do produto 2. Design moderno e durável.</p>
+            </div>
+            <div class="card">
+                <img src="imagens/produto3.jpg" alt="Produto 3">
+                <h3>Produto 3</h3>
+                <p>Descrição do produto 3. Confortável e estiloso.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa dedicada a fornecer produtos de alta qualidade para nossos clientes. Nossa missão é oferecer o melhor em termos de design, durabilidade e preço.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações sobre nossos produtos.</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mostruário de Produtos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

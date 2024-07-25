@@ -43,6 +43,8 @@ header{
 .logo {
     display: flex;
     justify-content: center;
+    width: 200px;
+    height: 200px;
 }
 
 .cabeca > p{

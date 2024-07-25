@@ -38,16 +38,16 @@ header{
 
 .cabeca{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 20px 50px 20px 20px;
 }
 
 .logo {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 .cabeca > p{
-    display: inline-block;
     color: var(--color0--);
     display: flex;
     align-items: center;
@@ -57,6 +57,7 @@ header{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.255);
     text-align: center;
 }
+
 .navegacao{
     display: flex;
     justify-content: center;
@@ -69,7 +70,7 @@ header{
     font-weight: bold;
     font-size: 20px;
     padding: 0px 25px;
-    margin: 10px 0px 0px 35px;
+    margin: 10px 0px 0px 3px;
 }
 
 .navegacao > a:hover{

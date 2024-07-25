@@ -10,9 +10,14 @@
 <body>
     <header>
         <div class="cabeca">
-            <a class="logo" href="#"><img src="images/logo-sfundo.PNG"alt="logotipo"></a>
-                <p>Bem-vindo ao nosso Mostruário!!
-                <br> Conheça nossos produtos de alta qualidade <br>escolha o que mais combina com você.</p>
+            <picture>
+                <source media="(max-width: 50px)" srcset="images/slogoP.png" type="image/png">
+
+                <source media="(max-width: 100px)" srcset="images/slogoM.png" type="image/png">
+                
+                <img src="images/slogoG.png" alt="logoG">
+            </picture>
+            <p>Bem-vindo ao nosso Mostruário!! <br> Conheça nossos produtos de alta qualidade <br> escolha o que mais combina com você.</p>
         </div>
         <nav class="navegacao">
             <a href="#Produtos">Produtos</a>

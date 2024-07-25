@@ -38,21 +38,16 @@ header{
 
 .cabeca{
     display: flex;
-    justify-content: space-between;
-    padding: 20px 50px 20px 50px;
-}
-.logo > img{
-    width: 200px;
-    height: 200px;
+    justify-content: space-evenly;
+    padding: 20px 50px 20px 20px;
 }
 
-.cabeca > a{
-    color: var(--color1--);
-    display: flex;
-    align-items:center;
+.logo {
+    display: inline-block;
 }
 
 .cabeca > p{
+    display: inline-block;
     color: var(--color0--);
     display: flex;
     align-items: center;
@@ -60,6 +55,7 @@ header{
     font-weight: 600;
     font-size: 16px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.255);
+    text-align: center;
 }
 .navegacao{
     display: flex;
@@ -179,4 +175,8 @@ footer > p > a{
     color: white;
     text-decoration: none;
     font-weight: 600;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
 }

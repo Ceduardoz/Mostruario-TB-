@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TB Paper Artesanal</title>
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo-cfundo.jpeg" type="image/jpg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="cabeca">
-            <a class="logo" href="#"><img src="images/images.jfif"alt="logotipo"></a>
+            <a class="logo" href="#"><img src="images/logo-sfundo.PNG"alt="logotipo"></a>
                 <p>Bem-vindo ao nosso Mostruário!!
                 <br> Conheça nossos produtos de alta qualidade <br>escolha o que mais combina com você.</p>
         </div>
         <nav class="navegacao">
             <a href="#Produtos">Produtos</a>
             <a href="#Sobre">Sobre</a>
-            <a href="#Contato">Contato</a>
         </nav>
     </header>
     <main>
-        <section class="produtos">
+        <section id="Produtos" class="produtos">
             <h2 id="C1">Capas</h2>
             <div id="C1" class="container">
                 <div class="card">
@@ -35,6 +34,10 @@
                 <div class="card">
                     <img src="images/images.jfif" alt="produto3">
                     <h3>Produto 3</h3>
+                </div>
+                <div class="card">
+                    <img src="images/images.jfif" alt="produto4">
+                    <h3>Produto 4</h3>
                 </div>
             </div>
             <h2 id="M1">Miolos</h2>
@@ -51,23 +54,24 @@
                     <img src="images/images.jfif" alt="miolo3">
                     <h3>Miolo 3</h3>
                 </div>
+                <div class="card">
+                    <img src="images/images.jfif" alt="miolo4">
+                    <h3>Miolo 4</h3>
+                </div>
             </div>
         </section>
+        <hr id="linha">
         <section id="Sobre">
-            <h2>Sobre Nós</h2>
-            <p>Dedicada a fornecer produtos de alta qualidade para nossos clientes. Nossa missão é oferecer o melhor em termos de design, durabilidade e preço.</p>
-        </section>
-        <section id="Contato">
-            <label for="Nome">Nome:</label>
+            <h2 class="sn">Sobre Nós</h2>
+            <p id="P1">Dedicada a fornecer produtos de alta qualidade para nossos clientes. <br> Nossa missão é oferecer o melhor em termos de design, durabilidade e preço.</p>
             <br>
-            <input type="text" name="nome">
-            <br>
-            <label for="numero">Contato:</label>
-            <br>
-            <input type="text" name="numero">
-            <br>
-            <label for="escolhas">Suas escolhas:</label>
+            <p id="P2">Fale Conosco</p>
+            <a href="https://wa.me/558191983395?text=" target="_blank" rel="external"><img id="imagem" src="images/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.instagram.com/terezab.paper_artesanal/" target="_blank" rel="external"><img id="imagem" src="images/instagram.png" alt="instagram"></a>
         </section>
     </main>
+    <footer>
+        <p>&#169 2024 Todos os Direitos Reservados, Criado por <a href="#">Carlos Eduardo</a><p>
+    </footer>
 </body>
 </html>

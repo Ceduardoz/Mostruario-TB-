@@ -34,33 +34,39 @@ header{
 .cabeca{
     display: flex;
     justify-content: space-between;
-    padding: 60px 50px 20px 50px;
+    padding: 20px 50px 20px 50px;
 }
 .logo > img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .cabeca > a{
     color: var(--color1--);
+    display: flex;
+    align-items:center;
 }
 
 .cabeca > p{
     color: var(--color1--);
+    display: flex;
+    align-items: center;
     font-family: var(--font3--);
     font-size: 16px;
 }
+.navegacao{
+    display: flex;
+    justify-content: center;
+}
 
 .navegacao > a{
-    display: inline-block;
     color: var(--color1--);
     text-decoration: none;
     font-family: var(--font2--);
     font-weight: bold;
     font-size: 20px;
     padding: 0px 25px;
-    margin: 10px 0px 0px 35px 
-    ;
+    margin: 10px 0px 0px 35px;
 }
 
 .navegacao > a:hover{
@@ -73,12 +79,16 @@ header{
 
 /*Main*/
 
+/*produtos*/
+
 .produtos > h2{
     background-color: var(--color3--);
     color: var(--color2--);
+    border-radius: 10px 0px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.255);
     font-family: var(--font3--);
     text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.255);
     padding: 20px;
     margin: 20px 10px;
 }
@@ -91,7 +101,7 @@ header{
 .card{
     display: inline-block;
     background-color: var(--color5--);
-    border-radius: 10px;
+    border-radius: 10px 0px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.255);
     width: 300px;
     height: 280px;
@@ -100,5 +110,45 @@ header{
 }
 
 .card > img{
-    padding: 10px;
+    padding: 10px; 
+}
+
+/*Fim dos produtos*/
+
+/*Sobre nós*/
+
+#linha{
+    background-color: var(--color0--);
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.255);
+    height: 5px;
+    margin-top: 10px;
+}
+
+#Sobre{
+    margin: 20px ;
+    text-align: center;
+}
+
+.sn{
+    color: var(--color4--);
+    padding-bottom: 20px;
+    font-family: var(--font2--);
+    font-size: 3em;
+    font-weight: 800;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.255);
+}
+
+#Sobre > p{
+    color: var(--color3--);
+    font-family: var(--font3--);
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#imagem{
+    width: 50px;
+    height: 50px;
+    margin: 10px 25px;
+    cursor: pointer;
 }

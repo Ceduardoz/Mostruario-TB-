@@ -127,7 +127,7 @@ header{
 .card > img:hover{
     transform: scale(1.2, 1.1);
     border-radius: 24px 0px;
-    margin: 10px;
+    margin: 10px;   
 }
 
 .card .s-img {
@@ -206,18 +206,20 @@ header{
 
 footer{
     background-color: var(--color2--);
-    color: white;
+    color: black;
     text-align: center;
     font-size: 16px;
+    font-weight: 600;
     padding: 5px;
 }
 
 footer > p > a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 600;
 }
 
 footer > p > a:hover{
     text-decoration: underline;
+    
 }
